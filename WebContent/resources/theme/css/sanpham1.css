@@ -1,0 +1,237 @@
+.container {
+	margin: 0 auto;
+}
+
+@media ( max-width : 576px) {
+	.container {
+		max-width: 98%;
+	}
+}
+
+@media ( min-width : 577px) and (max-width: 768px) {
+	.container {
+		max-width: 98%;
+	}
+}
+
+@media ( min-width : 769px) and (max-width: 992px) {
+	.container {
+		max-width: 98%;
+	}
+}
+
+@media ( min-width : 993px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flexx {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.flex-colum {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pic img {
+	width: 1380px;
+}
+
+.GioiThieu {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	display: flex;
+}
+
+.GioiThieu .GT-left {
+	margin-right: -535px;
+}
+
+.GioiThieu .GT-left .GT-left-top {
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	padding: 20px 30px;
+	display: inline-block;
+}
+
+.GioiThieu .GT-left .GT-left-top h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #272727;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+}
+
+.GioiThieu .GT-left .GT-left-top .dm .dm1 {
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.7);
+	font-family: "Open Sans", sans-serif;
+}
+
+.GioiThieu .GT-left .GT-left-top .dm .dm1 a {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.GioiThieu .GT-left .GT-left-top .dm .dm2 {
+	font-size: 14px;
+	padding-bottom: 10px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.GioiThieu .GT-left .GT-left-top .dm .dm2 a {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.GioiThieu .GT-left .GT-left-bottom {
+	margin-top: 30px;
+}
+
+.GioiThieu .GT-left .GT-left-bottom img {
+	width: 28%;
+	transition: 0.4s;
+}
+
+.GioiThieu .GT-left .GT-left-bottom img:hover {
+	transform: scale(1.03);
+}
+
+.GioiThieu .GT-right h2 {
+	margin-bottom: 30px;
+	font-family: "Heebo", sans-serif;
+	margin-left: 600px;
+}
+
+.GioiThieu .GT-right .hg1 {
+	margin-bottom: 85px;
+	flex-wrap:wrap;
+    width: 70%;
+    margin-left:550px;
+    margin-top:0px;
+}
+
+.GioiThieu .GT-right .hg2 {
+	margin-bottom: 85px;
+	
+}
+.GioiThieu .GT-right .product {
+ 	margin-left: 30px; 
+	text-align: center;
+	border: 1px solid #f1f2f6;
+	border-radius: 10px;
+	background: #f1f2f6;
+	box-shadow: 15px 15px 15px #c8d6e5;
+	width:205px;
+	height:350px;
+	display: flex;
+  justify-content: space-between; 
+  width: 20%; 
+  margin-bottom:50px;
+}
+
+.GioiThieu .GT-right .product .product-box {
+	width:100%;
+	overflow: hidden;
+	height: 330px;
+	position: relative;
+}
+
+.GioiThieu .GT-right .product .product-box img {
+	height: 205px;
+	width:100%;
+          display:block;
+}
+
+.GioiThieu .GT-right .product .product-box .infor {
+	text-align: center;
+	padding: 15px 5px 15px;
+	position: relative;
+}
+
+.GioiThieu .GT-right .product .product-box .infor a.name {
+	color: #000000;
+	font-family: "Volkhov", serif;
+	font-size: 16.5px;
+}
+
+.GioiThieu .GT-right .product .product-box .infor .price {
+	margin-top: 8px;
+}
+
+.GioiThieu .GT-right .product .product-box .infor .price .pri {
+	color: #61c472;
+	margin-right: 15px;
+}
+
+.GioiThieu .GT-right .product .product-box .infor .price .discount {
+	color: #999;
+}
+
+.GioiThieu .GT-right .product .product-box .infor a.by {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	margin-top: 8px;
+	font-size: 14px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.75s;
+	border: 1px solid
+		linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93
+		100%);
+	background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93
+		100%);
+	color: white;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px 0px;
+}
+
+.GioiThieu .GT-right .product .product-box::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	visibility: visible;
+	content: "";
+	width: 15%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.3);
+	transform: skewX(-25deg);
+	z-index: 2;
+}
+
+.GioiThieu .GT-right .product .product-box:hover::before {
+	animation: shine 0.8s;
+}
+
+.GioiThieu .GT-right .product .product-box:hover a.by {
+	visibility: visible;
+	transform: translateY(-2px);
+	opacity: 1;
+}
+
+@keyframes shine { 100% {
+	left: 130%;
+}
+}

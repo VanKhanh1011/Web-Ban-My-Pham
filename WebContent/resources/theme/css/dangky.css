@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+input {
+  border: none;
+  outline: none;
+  background: none; }
+
+.page2 {margin-top:50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .page2 form .form-left {
+    background: #3498db;
+    padding: 80px;
+    width: 350px; }
+    .page2 form .form-left h2 {
+      font-size: 30px;
+      padding-bottom: 50px;
+      text-align: center; }
+    .page2 form .form-left .line1 {
+      margin-bottom: 25px;
+      border-bottom: 1px solid white;
+      padding: 10px;
+      position: relative; }
+      .page2 form .form-left .line1 i {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%); }
+      .page2 form .form-left .line1 input {
+        padding-left: 25px; }
+        .page2 form .form-left .line1 input::placeholder {
+          color: white; }
+    .page2 form .form-left button {
+      color: black;
+      border: 1px solid white;
+      border-radius: 20px;
+      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+      padding: 10px 40px;
+      margin-left: 100px;
+      transition: all 0.5s; }
+      .page2 form .form-left button:hover {
+        background: black;
+        color: white; }
+    .page2 form .form-left p.not {
+      text-align: center;
+      margin-top: 30px;
+      color: #535c68; }
+      .page2 form .form-left p.not a {
+        text-decoration: none;
+        color: #535c68;
+        font-weight: bold; }

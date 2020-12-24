@@ -1,0 +1,121 @@
+.container {
+  margin: 0 auto; }
+  @media (max-width: 576px) {
+    .container {
+      max-width: 98%; } }
+  @media (min-width: 577px) and (max-width: 768px) {
+    .container {
+      max-width: 98%; } }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .container {
+      max-width: 98%; } }
+  @media (min-width: 993px) {
+    .container {
+      max-width: 1200px; } }
+
+.flex {
+  display: flex;
+  justify-content: space-between; }
+
+.flexx {
+  display: flex;
+  flex-wrap: wrap; }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20; }
+
+.flex-colum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+.pic img {
+  width: 1380px; }
+
+.GioiThieu {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  display: flex; }
+  .GioiThieu .GT-left {
+    margin-right: -500px; }
+    .GioiThieu .GT-left .GT-left-top {
+      border: 1px solid rgba(0, 0, 0, 0.7);
+      padding: 20px 30px;
+      display: inline-block; }
+      .GioiThieu .GT-left .GT-left-top h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #272727;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500; }
+      .GioiThieu .GT-left .GT-left-top .dm .dm1 {
+        font-size: 14px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.7);
+        font-family: "Open Sans", sans-serif; }
+        .GioiThieu .GT-left .GT-left-top .dm .dm1 a {
+          color: rgba(0, 0, 0, 0.7); }
+      .GioiThieu .GT-left .GT-left-top .dm .dm2 {
+        font-size: 14px;
+        padding-bottom: 10px;
+        font-family: "Open Sans", sans-serif; }
+        .GioiThieu .GT-left .GT-left-top .dm .dm2 a {
+          color: rgba(0, 0, 0, 0.7); }
+    .GioiThieu .GT-left .GT-left-bottom {
+      margin-top: 30px; }
+      .GioiThieu .GT-left .GT-left-bottom img {
+        width: 28%;
+        transition: 0.4s; }
+        .GioiThieu .GT-left .GT-left-bottom img:hover {
+          transform: scale(1.03); }
+  .GioiThieu .GT-right h2 {
+    margin-bottom: 30px;
+    font-family: "Heebo", sans-serif; }
+  .GioiThieu .GT-right .gt-content .gt-content1 {
+    margin-bottom: 25px; }
+    .GioiThieu .GT-right .gt-content .gt-content1 p.td1 {
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px; }
+    .GioiThieu .GT-right .gt-content .gt-content1 p.gt1 {
+      margin-bottom: 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14.5px; }
+  .GioiThieu .GT-right .gt-content .gt-content2 {
+    margin-bottom: 25px; }
+    .GioiThieu .GT-right .gt-content .gt-content2 p.td2 {
+      font-weight: bold;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif; }
+    .GioiThieu .GT-right .gt-content .gt-content2 p.td3 {
+      font-size: 14.5px;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 10px; }
+  .GioiThieu .GT-right .gt-content .gt-content3 {
+    margin-bottom: 25px; }
+    .GioiThieu .GT-right .gt-content .gt-content3 p.td4 {
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px; }
+    .GioiThieu .GT-right .gt-content .gt-content3 p.td5 {
+      margin-bottom: 10px;
+      font-size: 14.5px;
+      font-family: "Open Sans", sans-serif; }
+  .GioiThieu .GT-right .gt-content .gt-content4 {
+    margin-top: 20px; }
+    .GioiThieu .GT-right .gt-content .gt-content4 p.td6 {
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px; }
+    .GioiThieu .GT-right .gt-content .gt-content4 p.td7 {
+      font-size: 14.5px;
+      margin-bottom: 10px;
+      font-family: "Open Sans", sans-serif; }

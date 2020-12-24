@@ -1,0 +1,228 @@
+.pp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.pp .ship__img{
+    width:  600px;
+    height: 300px;
+    
+}
+.pp .ship__img img{
+   
+   width: 100%;
+    display: block;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.pp .note{
+    margin-left: 60px;
+    width: 500px;
+    text-align: left;
+    display: inline;
+    margin-top: 15px;
+}
+.note h2{
+color: rgb(17, 17, 17);
+font-size: 18px;
+margin-bottom: 10px;
+}
+.note h3{
+    color: rgb(86, 236, 86);
+    margin-bottom: 10px;
+}
+.note p span{
+    color: orangered;
+    font-weight: bold;
+}
+.note h4{
+    color: rgb(21, 182, 147);
+    transition: all 1s;
+    margin-bottom: 10px;
+}
+.note h4:hover{
+    color: red;
+}
+.note p{
+    color: grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.color .butt{
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.color .butt a{
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.soluong{
+    display: flex;
+    
+   
+}
+.soluong input{
+   width: 100px;
+   height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid pink;
+    background: pink;
+    text-align: center;
+}
+.soluong h5{
+	margin-top: 20px;
+}
+.shop button{
+    padding: 10px 20px;
+   border: 1px solid black;
+    background: pink;
+margin-left: 80px;
+transition: all 1s;
+border-radius: 5px;
+margin-top: 30px;
+}
+.shop button a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+.shop button:hover{
+    background: red;
+    cursor: pointer;
+}
+.ship{
+margin-left: 30px;
+width: 500px;
+margin-top: 15px;
+border: 3px solid pink;
+padding: 10px;
+height: 400px;
+}
+.ship__content{
+   
+}
+.ship__items{
+    display: flex;
+   justify-content:space-between;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.ship__items img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ship__items .ship__right{
+	margin-top: 20px;
+}
+.second .ship__right h4{
+margin-left: -265px;
+}
+.second .ship__right p{
+    margin-left: -265px;
+}
+.info{
+    width: 90%;
+    margin: 0 auto;
+}
+.info__items{
+margin-top:100px;
+}
+.info__items h2{
+text-align: center;
+color: green;
+}
+.info__items p{
+font-size: 16px;
+color: grey;
+line-height: 30px;
+word-spacing: 5px;
+letter-spacing: 1px;
+text-align: left;
+}
+.info__items img{
+width: 50%;
+display: block;
+height: 500px;
+margin-left: 300px;
+}
+.question{
+    width: 90%;
+    margin: 50px auto;
+
+}
+.question h2{
+    color: red;
+}
+.bottom input{
+width: 70%;
+height: 15px;
+border: 1px solid black;
+background: pink;
+padding: 20px;
+border-radius: 5px;
+
+}
+.bottom button{
+height: 58px;
+padding: 18px;
+background: black;
+color: pink;
+width: 200px;
+border: 1px solid black;
+transition: all 1s;
+display: block;
+margin-top: 30px;
+border-radius: 5px;
+
+}
+.bottom button:hover{
+    cursor: pointer;
+    background: rgb(30, 191, 219);
+    color: black
+}
+.feedback{
+    width: 90%;
+    margin: 50px auto;
+}
+.feedback h2{
+    color: red;
+}
+.feedback p{
+    color: rgb(14, 131, 131);
+}
+.nhanxet textarea{
+    width: 70%;
+    height: 60px;
+    border: 1px solid black;
+    background: pink;
+    padding: 20px;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+.nhanxet button{
+    height: 58px;
+padding: 18px;
+background: rgb(236, 233, 6);
+color: rgb(15, 15, 15);
+width: 200px;
+border: 1px solid black;
+transition: all 1s;
+border-radius: 5px;
+
+}
+.nhanxet button:hover{
+    cursor: pointer;
+    background: rgb(30, 191, 219);
+    color: black
+}
